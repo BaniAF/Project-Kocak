@@ -42,19 +42,13 @@ public class KOCAK_1_2_1 extends javax.swing.JFrame {
 
         jLabel1.setText("Hasil Cari");
 
-        jLabel2.setText("Hasil Produk");
+        jLabel2.setText("Gambar Hasil produk");
 
         jLabel3.setText("Nama Produk");
-
-        jTextField1.setText("jTextField1");
-
-        jTextField2.setText("jTextField1");
 
         jLabel4.setText("Tempat Produk");
 
         jLabel5.setText("Harga Produk");
-
-        jTextField3.setText("jTextField1");
 
         javax.swing.GroupLayout jInternalFrame1Layout = new javax.swing.GroupLayout(jInternalFrame1.getContentPane());
         jInternalFrame1.getContentPane().setLayout(jInternalFrame1Layout);
@@ -66,10 +60,8 @@ public class KOCAK_1_2_1 extends javax.swing.JFrame {
                     .addGroup(jInternalFrame1Layout.createSequentialGroup()
                         .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jInternalFrame1Layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addGap(141, 141, 141)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 154, Short.MAX_VALUE)
+                            .addComponent(jLabel4))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
                         .addComponent(jLabel2)
                         .addGap(63, 63, 63))
                     .addGroup(jInternalFrame1Layout.createSequentialGroup()
